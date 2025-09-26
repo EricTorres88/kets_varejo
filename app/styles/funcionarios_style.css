@@ -1,0 +1,371 @@
+.block-container {
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+.stApp {
+    background-color: #dff3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.funcionario-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 700px;
+        }
+
+.stApp {
+    background-color: #dff3ff;
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important; /* azul Google-like */
+    margin-bottom: 1.5rem !important;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+    text-decoration: none !important;
+    pointer-events: none !important;
+    color: inherit !important;
+    visibility: hidden !important;
+    display: none !important;
+}
+
+h1 a::before,
+h2 a::before,
+h3 a::before,
+h4 a::before {
+    content: none !important;
+}
+
+.listafuncionarios {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important;
+    margin-bottom: 2px !important;
+}
+
+.func-card {
+    width: 80%;
+    background-color: #bad8ff;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+p.func-nome {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0456c2;
+}
+
+p.func-nome i {
+    margin-right: 10px;
+}
+
+.func-info-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #0456c2;
+}
+
+.func-info-container i {
+    margin-right: 10px;
+}
+
+/* Botões Alterar */
+div[class*="st-key-editar_func_"] button[data-testid="stBaseButton-secondary"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    background-color: #e8ff65 !important;
+    color: #020202 !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    border: none !important;
+    cursor: pointer !important;
+    line-height: 1 !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    font-size: 14px !important;           /* ajuste à sua preferência */
+    padding: 8px 12px !important;         /* pode ajustar tamanho do botão */
+}
+div[class*="st-key-editar_func_"] button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #d6e05d !important;
+    transform: scale(1.02);
+}
+
+/* Botões Deletar */
+div[class*="st-key-deletar_func_"] button[data-testid="stBaseButton-secondary"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #ff3636 !important;
+    color: #020202 !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    border: none !important;
+    cursor: pointer !important;
+    vertical-align: middle !important;
+    line-height: 1 !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+}
+div[class*="st-key-deletar_func_"] button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #ad2222  !important;
+    transform: scale(1.02);
+}
+
+div[data-testid="stExpander"] {
+    background: #dff3ff !important;
+}
+
+.stTextInput label {
+    color:  #1a73e8 !important;
+    margin-bottom: 0.3rem !important;
+    display: block;
+}
+
+.st-emotion-cache-ne3lcw p {
+    font-size: 0.9rem !important;
+    font-weight: bold;
+}
+.stTextInput input {
+    background: #d4e6ff !important;
+    border: 1px solid #d1e2fd !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    font-size: 0.9rem !important;
+    transition: all 0.2s ease-in-out;
+}
+.stTextInput input:focus {
+    border-color: #1a73e8 !important;
+    box-shadow: 0 0 4px rgba(26,115,232,0.3);
+}
+
+/**/
+
+.form-label {
+    color: #1a73e8 !important;      /* mesmo azul dos demais inputs */
+    margin-bottom: 0.3rem !important;
+    display: block !important;
+    font-size: 0.9rem !important;
+    font-weight: bold !important;
+}
+
+/* Ajuste para o ícone dentro do label */
+.form-label i {
+    margin-right: 6px;
+    color: #1a73e8;
+}
+
+.stTextInput {
+    margin-top: -30px !important;
+}
+
+.st-emotion-cache-1h9usn1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(49, 51, 63, 0.2);
+    border-radius: 0.5rem;
+}
+
+
+.st-emotion-cache-1tw2ey4 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: inherit;
+    padding: 0.25rem 0.75rem;
+    min-height: calc(-2px + 2.5rem);
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #74acf7;
+    border-radius: 0.5rem 0.5rem 0px 0px;
+    transition: background-color 150ms;
+}
+
+.st-emotion-cache-1tw2ey4:hover {
+    background-color: #4491f7;
+}
+
+.st-emotion-cache-fwk2z {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: inherit;
+    padding: 0.25rem 0.75rem;
+    min-height: calc(-2px + 2.5rem);
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #74acf7;
+    border-radius: 0.5rem;
+}
+
+.st-emotion-cache-fwk2z:hover {
+    background-color: #4491f7;
+}
+
+.st-emotion-cache-1h9usn1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(49, 51, 63, 0.2);
+    border-radius: 0.5rem;
+}
+
+.st-emotion-cache-3n56ur {
+    background-color: #a7c9f5;
+    padding: 1rem;
+    border-top: 1px solid rgba(49, 51, 63, 0.2);
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"] {
+    background-color: #1a73e8 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+    cursor: pointer !important;
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"]:hover {
+    background-color: #1557b0 !important;
+}
+
+.listafunc {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important; /* azul Google-like */
+    margin-bottom: 2px !important;
+}
+
+/* Força emoji e texto lado a lado, sem quebra */
+div[class*="st-key-editar_func_"] button[data-testid="stBaseButton-secondary"],
+div[class*="st-key-deletar_func_"] button[data-testid="stBaseButton-secondary"] {
+    display: inline-flex !important;
+    flex-direction: row !important;          /* garante que ícone+texto fiquem na mesma linha */
+    align-items: center !important;          /* centraliza verticalmente */
+    justify-content: center !important;
+    gap: 2px !important;                     /* espaço entre emoji e texto */
+    white-space: nowrap !important;          /* impede quebra de linha */
+    line-height: 1 !important;
+    vertical-align: middle !important;
+    font-family: "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Apple Color Emoji", sans-serif !important;
+    box-sizing: border-box !important;
+    padding: 8px 12px !important;
+}
+
+div[data-baseweb="select"] {
+    background-color: #d4e6ff;  /* fundo da caixa */
+    border: 1px solid #d1e2fd !important;
+    border-radius: 6px;         /* cantos arredondados */
+    padding: 0px;           /* espaço interno */
+    color: #1a73e8;             /* cor do texto */
+    width: 100%;                /* ocupa toda a largura disponível */
+    font-size: 0.9rem !important;
+    margin-top: -30px;
+}
+
+/* Efeito de foco ao abrir */
+div[data-baseweb="select"]:focus-within {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px #1a73e8;
+}
+
+.st-dz {
+    transition-property: border, box-shadow, background-color;
+}
+
+.st-cr {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border: none;
+}
+
+.st-emotion-cache-qiev7j {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: table-cell;
+}
+
+.st-ep {
+    background-color: #d4e6ff;
+}
+
+.st-ep:hover {
+    background-color: #1362d1;
+    color: #fff;
+    font-weight: bold;
+}
+
+.st-emotion-cache-ne3lcw p {
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.st-cf {
+    transition-property: border, box-shadow, background-color;
+    background-color: #d4e6ff;
+    border: none;
+}
+
+.st-emotion-cache-1permvm {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 1rem;
+    flex-flow: wrap;
+    flex: 1 1 0%;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: start;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+.st-emotion-cache-1bcyifm {
+    border: none;
+    border-radius: 0.5rem;
+    padding: calc(-1px + 1rem);
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}

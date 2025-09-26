@@ -1,0 +1,16 @@
+# virtualenv
+venv/
+.venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+
+# local files
+.env
+*.db
+
+# editors
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,171 @@
+.block-container {
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+.stApp {
+    background-color: #dff3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important; /* azul Google-like */
+    margin-bottom: 0;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+    text-decoration: none !important;
+    pointer-events: none !important;
+    color: inherit !important;
+    visibility: hidden !important;
+    display: none !important;
+}
+
+h1 a::before,
+h2 a::before,
+h3 a::before,
+h4 a::before {
+    content: none !important;
+}
+
+.listaprodutos {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important;
+    margin-bottom: 2px !important;
+}
+
+.parcela-card {
+    width: 80%;
+    background-color: #bad8ff;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+p.parcela-nome {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0456c2;
+}
+
+p.parcela-nome i{
+    margin-right: 10px;
+}
+
+.parcela-info-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #0456c2;
+}
+
+.parcela-info-container i {
+    margin-right: 10px;
+}
+
+.st-emotion-cache-ne3lcw p {
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    color: #1a73e8; /**/
+}
+
+div[class*="st-key-update_"] button[data-testid="stBaseButton-secondary"] {
+    width: 12rem;
+    background-color: #e8ff65 !important;
+    color: #020202 !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 10px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+div[class*="st-key-update_"] button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #d6e05d !important;
+    transform: scale(1.02);
+}
+
+div[class*="st-key-delete_"] button[data-testid="stBaseButton-secondary"] {
+    width: 10rem;
+    background-color: #ff3636 !important;
+    color: #020202 !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 10px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    margin-left: 80px;
+}
+
+div[class*="st-key-delete_"] button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #ad2222  !important;
+    transform: scale(1.02);
+}
+
+.st-emotion-cache-1bcyifm {
+    border: none;
+    border-radius: 0.5rem;
+    padding: calc(-1px + 1rem);
+    width: 60%;
+    height: 100%;
+    overflow: visible;
+    background-color: #afcefa;
+    border: 1px solid #d3d3d3;
+}
+
+.st-cy {
+    border: none;
+    transition-property: border, box-shadow, background-color;
+}
+
+.st-b7 {
+    background-color: #d4e6ff;
+}
+
+.st-fk {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(226, 59, 59);
+}
+
+.st-e9 {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.st-e8 {
+    color: #fff;
+}
+
+.st-ew {
+    background-color: #83b7fa !important;
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"] {
+    background-color: #1a73e8 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+    cursor: pointer !important;
+    margin-top: 10px;
+}  
+
+button[data-testid="stBaseButton-secondaryFormSubmit"]:hover {
+    background-color: #1557b0 !important;
+}

@@ -1,0 +1,346 @@
+.block-container {
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+.stApp {
+    background-color: #dff3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important; /* azul Google-like */
+    margin-bottom: 1.5rem !important;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+    text-decoration: none !important;
+    pointer-events: none !important;
+    color: inherit !important;
+    visibility: hidden !important;
+    display: none !important;
+}
+
+h1 a::before,
+h2 a::before,
+h3 a::before,
+h4 a::before {
+    content: none !important;
+}
+
+div.st-key-botao_cadastro button[data-testid="stBaseButton-secondary"] {
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    border-radius: 8px !important;
+    padding: 10px 18px !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out !important;
+    cursor: pointer !important;
+}
+
+div.st-key-botao_cadastro button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #1557b0 !important;
+    transform: scale(1.02);
+}
+
+div[data-testid="stExpander"] {
+    background: #dff3ff !important;
+}
+
+.stTextInput label {
+    color:  #1a73e8 !important;
+    margin-bottom: 0.3rem !important;
+    display: block;
+}
+
+.st-emotion-cache-ne3lcw p {
+    font-size: 0.9rem !important;
+    font-weight: bold;
+}
+
+
+.stTextInput input {
+    background: #d4e6ff !important;
+    border: none;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    font-size: 0.9rem !important;
+    transition: all 0.2s ease-in-out;
+}
+.stTextInput input:focus {
+    border-color: #1a73e8 !important;
+    box-shadow: 0 0 4px rgba(26,115,232,0.3);
+}
+
+.st-emotion-cache-1bcyifm {
+    border: none;
+    border-radius: 0.5rem;
+    padding: calc(-1px + 1rem);
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+/* Labels do formulário de cadastro */
+.form-label {
+    color: #1a73e8 !important;      /* mesmo azul dos demais inputs */
+    margin-bottom: 0.3rem !important;
+    display: block !important;
+    font-size: 0.9rem !important;
+    font-weight: bold !important;
+}
+
+/* Ajuste para o ícone dentro do label */
+.form-label i {
+    margin-right: 6px;
+    color: #1a73e8;
+}
+
+.stTextInput {
+    margin-top: -30px !important;
+}
+
+.st-emotion-cache-1h9usn1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 80%;
+    border: none;
+}
+
+
+.st-emotion-cache-1tw2ey4 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: inherit;
+    padding: 0.25rem 0.75rem;
+    min-height: calc(-2px + 2.5rem);
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #74acf7;
+    border-radius: 0.5rem 0.5rem 0px 0px;
+    transition: background-color 150ms;
+}
+
+
+.st-emotion-cache-1tw2ey4:hover {
+    background-color: #4491f7;
+}
+
+.st-emotion-cache-1py5frv input {
+    background-color: #d4e6ff ;
+}
+
+.st-emotion-cache-fwk2z {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: inherit;
+    padding: 0.25rem 0.75rem;
+    min-height: calc(-2px + 2.5rem);
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: #74acf7;
+    border-radius: 0.5rem;
+}
+
+.st-emotion-cache-fwk2z:hover {
+    background-color: #4491f7;
+}
+
+.st-emotion-cache-1h9usn1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(49, 51, 63, 0.2);
+    border-radius: 0.5rem;
+}
+
+.st-emotion-cache-3n56ur {
+    background-color: #a7c9f5;
+    padding: 1rem;
+    border-top: 1px solid rgba(49, 51, 63, 0.2);
+}
+
+.botao-cadastrar-form button {
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 18px !important;
+    border: none !important;
+    transition: background-color 0.2s ease-in-out !important;
+    cursor: pointer !important;
+}
+
+.botao-cadastrar-form button:hover {
+    background-color: #1557b0 !important;
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"] {
+    background-color: #1a73e8 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+    cursor: pointer !important;
+    margin-top: 10px;
+}
+
+button[data-testid="stBaseButton-secondaryFormSubmit"]:hover {
+    background-color: #1557b0 !important;
+}
+
+.st-d0 {
+    padding-right: 0px;
+    background-color: transparent !important;
+    border: none;
+}
+
+.st-emotion-cache-1ksltpv {
+    margin: 0px;
+    border: none;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 2rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(49, 51, 63);
+    transition: color 300ms, backgroundColor 300ms;
+    background-color: #588dd8;
+}
+
+.st-emotion-cache-1ksltpv:hover {
+    color: rgb(255, 255, 255);
+    background-color: #2963b4;
+}
+
+.st-emotion-cache-1ksltpv:hover:enabled, .st-emotion-cache-1ksltpv:focus:enabled {
+    color: rgb(255, 255, 255);
+    background-color: #2963b4;
+}
+
+.listaprodutos {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0456c2 !important; /* azul Google-like */
+    margin-bottom: 2px !important;
+}
+
+.produto-card {
+    width: 80%;
+    background-color: #bad8ff;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+p.produto-nome {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0456c2;
+}
+
+p.produto-nome i{
+    margin-right: 10px;
+}
+
+.produto-info-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #0456c2;
+}
+
+.produto-info-container i{
+    margin-right: 10px;
+}
+
+.st-emotion-cache-ne3lcw p {
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"] {
+    background-color: #e8ff65 !important;
+    color: #020202 !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 10px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #d6e05d !important;
+    transform: scale(1.02);
+}
+
+div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"] {
+    background-color: #ff3636 !important;
+    color: #020202 !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    padding: 10px 10px !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #ad2222  !important;
+    transform: scale(1.02);
+}
+
+.st-emotion-cache-1permvm {
+    display: flex;
+    gap: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 1rem;
+    flex-flow: wrap;
+    flex: 1 1 0%;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: start;
+    overflow: visible;
+}
+
+.st-fk {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(226, 59, 59);
+}
+
+.st-e9 {
+    background-color: rgb(226, 59, 59);
+}
+
+.st-e8 {
+    color: #fff;
+}

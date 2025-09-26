@@ -1,0 +1,218 @@
+.stApp {
+    background-color: #dff3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.painel {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(45, 139, 216);
+    margin-bottom: 10px;
+}
+
+[data-testid="stSidebarCollapseButton"] button {
+    width: 1px;
+    background-color: rgb(45, 139, 216) !important;
+    border-radius: 8px !important;
+    border: none !important;
+    color: #0077b6 !important;
+    padding: 6px !important;
+    transition: all 0.3s 
+ease !important;
+}
+
+[data-testid="stSidebarCollapseButton"] button:hover {
+    width: 1px;
+    background-color: rgb(45, 139, 216) !important;
+    border-radius: 8px !important;
+    border: none !important;
+    color: #0077b6 !important;
+    padding: 6px !important;
+    transition: all 0.3s 
+ease !important;
+}
+
+[data-testid="stSidebarCollapseButton"] button:focus:not(:active) {
+    width: 1px;
+    background-color: rgb(45, 139, 216) !important;
+    border-radius: 8px !important;
+    border: none !important;
+    color: #0077b6 !important;
+    padding: 6px !important;
+    transition: all 0.3s 
+ease !important;
+}
+
+[data-testid="stSidebarCollapseButton"] [data-testid="stIconMaterial"] {
+    color: #fff !important;
+    font-size: 22px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+
+.st-emotion-cache-ztfqz8 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    margin: 0px 0.125rem;
+    color: inherit;
+    width: 30% !important;
+    user-select: none;
+    border: none !important;
+    padding: 0.5rem;
+    font-size: 14px;
+    line-height: 1;
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+.st-emotion-cache-ztfqz8 {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    margin: 0px 0.125rem;
+    color: inherit;
+    width: 30% !important;
+    user-select: none;
+    border: none !important;
+    padding: 0.5rem;
+    font-size: 14px;
+    line-height: 1;
+    min-width: 1rem;
+    min-height: 1rem;
+}
+
+[data-testid="stSidebar"] {
+    /*background-color: #1fa8f6 !important;*/
+    background-color: rgb(45, 139, 216) !important;
+    padding: 20px 15px !important;
+}
+
+[data-testid="stSidebar"] h1 {
+    color: #dff3ff !important;
+    font-size: 24px !important;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+
+[data-testid="stSidebarCollapseButton"] button {
+    width: 1px;
+    background-color: #dff3ff !important;   /* fundo */
+    border-radius: 8px !important;
+    border: 1px solid #90d6ff !important;
+    color: #0077b6 !important;              /* cor do ícone */
+    padding: 6px !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Ícone do botão (não deixar desaparecer) */
+[data-testid="stSidebarCollapseButton"] [data-testid="stIconMaterial"] {
+    color: #0077b6 !important;        /* cor fixa no ícone */
+    font-size: 22px !important;     /* tamanho do ícone */
+    visibility: visible !important; /* garante que apareça */
+    opacity: 1 !important;          /* sempre visível */
+}
+
+/* Efeito hover */
+[data-testid="stSidebarCollapseButton"] button:hover {
+    background-color: #195c8b !important;
+    border: 1px solid #055e92 !important;
+    transform: scale(1.1);
+}
+
+
+[data-testid="stSidebar"] button:not([kind="headerNoPadding"]) {
+    width: 200px;
+    /*width: 90% !important;*/
+    margin: 3px 0 !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+    border: 1px solid #90d6ff !important;
+    background-color: #dff3ff !important;
+    color: #0077b6 !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-testid="stSidebar"] button:not([kind="headerNoPadding"]):hover {
+    background-color: #195c8b !important;
+    border: 1px solid #055e92 !important;
+    color: #ffffff;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Estado normal */
+[data-testid="stSidebar"] button:not([kind="headerNoPadding"]) * {
+    color: #0077b6 !important;
+}
+
+/* Estado hover */
+[data-testid="stSidebar"] button:hover * {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] button:focus:not(:active) {
+    background-color: #005b8c !important;
+    border: 1px solid #055e92 !important;
+    color: white !important;
+}
+
+[data-testid="stSidebar"] button:focus:not(:active) * {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] button[kind="primary"] {
+    width: 100px;
+    border: none !important;
+    background-color: #ff4b4b !important;
+    margin-top: 30px !important;
+}
+
+[data-testid="stSidebar"] button[kind="primary"] * {
+    color: white !important;
+}
+
+
+[data-testid="stSidebar"] button[kind="primary"]:hover {
+    background-color: #ff3333 !important;
+}
+
+
+
+/* Firefox */
+[data-testid="stSidebarContent"] {
+    scrollbar-width: thin;
+    scrollbar-color: #dff3ff46 transparent; 
+    /* thumb branca, trilho transparente */
+}
+
+
+/* Chrome, Edge, Safari */
+[data-testid="stSidebarContent"]::-webkit-scrollbar {
+    width: 8px;
+}
+
+[data-testid="stSidebarContent"]::-webkit-scrollbar-track {
+    background: transparent; /* fundo invisível */
+}
+
+[data-testid="stSidebarContent"]::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* barra branca */
+    border-radius: 10px;
+}
+
+[data-testid="stSidebarContent"]::-webkit-scrollbar-thumb:hover {
+    background-color: #bbdcf5; /* leve cinza no hover */
+}
