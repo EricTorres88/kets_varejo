@@ -90,8 +90,9 @@ h4 a::before {
     transition: border-radius 200ms cubic-bezier(0.23, 1, 0.32, 1), background-color 150ms;
 }
 
-.st-br {
-    background-color: #bad8ff !important;
+.st-br { /*pro select cor*/
+    background-color: #a7c9f5 !important;
+    border: none !important;
 }
 
 .st-emotion-cache-pxambx { /*alterar aqui*/
@@ -368,7 +369,7 @@ div[data-baseweb="select"]:focus-within {
 
 .st-d0 { /*MUDAR AQUI PARA SELECTBOX*/
     border: none !important;
-    background-color: #d4e6ff !important;
+    background-color: transparent !important;
 }
 
 .st-emotion-cache-589yx1 { /*mudar aqui*/
