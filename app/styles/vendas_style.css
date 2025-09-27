@@ -204,7 +204,7 @@ div[data-baseweb="select"] {
 }
 
 div[data-baseweb="popover"] li[role="option"]:hover {
-    background-color: #a7c9f5 !important; /* cor de fundo ao passar o mouse */
+    background-color: #8093ac !important; /* cor de fundo ao passar o mouse */
     cursor: pointer;
 }
 
