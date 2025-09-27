@@ -199,8 +199,21 @@ div[data-testid="stExpander"] {
 
 /* Borda arredondada do selectbox */
 div[data-baseweb="select"] {
-    border-radius: 12px !important; /* ajuste o valor como quiser */
+    border-radius: 6px !important; /* ajuste o valor como quiser */
     overflow: hidden; /* evita que o conteúdo quebre o arredondamento */
+}
+
+.st-emotion-cache-589yx1 { /*mudar aqui*/
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 1rem;
+    font-weight: 400;
+    background-color: #d4e6ff !important;
+}
+
+.st-es { /*aqui*/
+    background-color: #aac2e4 !important;
 }
 
 .st-b7 {
