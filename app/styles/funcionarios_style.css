@@ -399,13 +399,7 @@ div[data-baseweb="select"]:focus-within {
 }
 
 .st-ep {
-    background-color: #d4e6ff !important; /*aqui?*/
-}
-
-.st-ep:hover {
-    background-color: #1362d1;
-    color: #fff;
-    font-weight: bold;
+    background-color: transparent !important; /*aqui?*/
 }
 
 .st-emotion-cache-ne3lcw p {
