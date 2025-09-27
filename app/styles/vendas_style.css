@@ -117,6 +117,21 @@ h4 a::before {
     background-color: #aac2e4 !important;
 }
 
+.st-emotion-cache-12x9678 {
+    font-size: 0.875rem;
+    color: rgb(49, 51, 63);
+    display: none;
+    visibility: visible;
+    margin-top: 20px;
+    margin-bottom: 0.25rem;
+    height: auto;
+    min-height: 1.5rem;
+    vertical-align: middle;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
 .st-key-botao_cadastro_venda button {
     background-color: #1a73e8 !important;
     color: #fff !important;
