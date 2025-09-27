@@ -117,14 +117,10 @@ h4 a::before {
     background-color: #aac2e4 !important;
 }
 
-div[data-baseweb="select"] div[role="combobox"] { /*AQUII*/
-    align-items: center !important;  /* força alinhamento vertical */
-    display: flex !important;
-    padding: 6px 10px !important;    /* ajusta o espaçamento interno */
-}
-
 div[data-baseweb="select"] div[value] {
-    line-height: 1.5 !important;     /* controla altura da linha do texto */
+    line-height: normal !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .st-key-botao_cadastro_venda button {
