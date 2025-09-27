@@ -74,6 +74,7 @@ h4 a::before {
 
 .st-emotion-cache-pxambx { /*alterar aqui*/
     background: rgb(50, 110, 230) !important;
+    color: #fff !important;
 }
 
 div.st-key-botao_cadastro button[data-testid="stBaseButton-secondary"] {
