@@ -123,8 +123,9 @@ div[data-baseweb="select"] div[value] { /*ajuste no margin top do selectbox*/
     align-items: center !important;
 }
 
-.st-emotion-cache-1py5frv input { /**/
-    background-color: #aac2e4 !important;
+.st-emotion-cache-1py5frv input { /*adicionar cor de caixinha*/
+    border: none !important;
+    background-color: #d4e6ff !important;
 }
 
 .st-key-botao_cadastro_venda button {
