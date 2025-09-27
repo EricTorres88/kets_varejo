@@ -176,7 +176,7 @@ div[data-testid="stExpander"] {
 
 
 .st-cx {
-    border: none;
+    border: none !important;
     border-radius: 6px !important;
     padding-left: 0px !important;
     font-size: 0.9rem !important;
@@ -185,9 +185,9 @@ div[data-testid="stExpander"] {
 
 .st-cx > div {
     padding-left: 8px !important; /* ajuste como quiser */
+    border: none !important;
+    border-radius: 6px !important;
 }
-
-
 
 .st-du {
     background-color: #a7c9f5;
