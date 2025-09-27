@@ -380,7 +380,7 @@ div[data-baseweb="select"]:focus-within {
 }
 
 .st-ep {
-    background-color: #d4e6ff;
+    background-color: #d4e6ff !important; /*aqui?*/
 }
 
 .st-ep:hover {
