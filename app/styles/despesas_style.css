@@ -71,6 +71,35 @@ h4 a::before {
     transition: border-radius 200ms cubic-bezier(0.23, 1, 0.32, 1), background-color 150ms;
 }
 
+.st-d0 { /*MUDAR AQUI PARA SELECTBOX*/
+    border: none !important;
+    background-color: #d4e6ff !important;
+}
+
+.st-emotion-cache-589yx1 { /*mudar aqui*/
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 1rem;
+    font-weight: 400;
+    background-color: #d4e6ff !important;
+}
+
+.st-es { /*aqui*/
+    background-color: #aac2e4 !important;
+}
+
+div[data-baseweb="select"] div[value] { /*ajuste no margin top do selectbox*/
+    line-height: normal !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.st-emotion-cache-1py5frv input { /*adicionar cor de caixinha*/
+    border: none !important;
+    background-color: #d4e6ff !important;
+}
+
 .st-emotion-cache-pxambx { /*alterar aqui*/
     background: rgb(50, 110, 230) !important;
     color: #fff !important;
