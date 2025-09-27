@@ -1,7 +1,10 @@
 streamlit
-mysql-connector-python
+pymysql
 pandas
 numpy
 plotly
 python-dotenv
 altair
+bcrypt
+flask
+werkzeug
