@@ -99,6 +99,24 @@ h4 a::before {
     margin-bottom: 2px !important;
 }
 
+.st-d0 { /*MUDAR AQUI PARA SELECTBOX*/
+    border: none !important;
+    background-color: #d4e6ff !important;
+}
+
+.st-emotion-cache-589yx1 { /*mudar aqui*/
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 1rem;
+    font-weight: 400;
+    background-color: #d4e6ff !important;
+}
+
+.st-es { /*aqui*/
+    background-color: #aac2e4 !important;
+}
+
 .st-key-botao_cadastro_venda button {
     background-color: #1a73e8 !important;
     color: #fff !important;
