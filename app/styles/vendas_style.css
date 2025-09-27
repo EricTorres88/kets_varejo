@@ -108,10 +108,6 @@ h4 a::before {
     background-color: #d4e6ff !important;
 }
 
-.st-es { /*aqui*/
-    background-color: #aac2e4 !important;
-}
-
 div[data-baseweb="select"] div[value] { /*ajuste no margin top do selectbox*/
     line-height: normal !important;
     display: flex !important;
