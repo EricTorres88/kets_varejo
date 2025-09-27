@@ -197,6 +197,11 @@ div[data-testid="stExpander"] {
     background-color: #92bef7;
 }
 
+/* Borda arredondada do selectbox */
+div[data-baseweb="select"] {
+    border-radius: 12px !important; /* ajuste o valor como quiser */
+    overflow: hidden; /* evita que o conteúdo quebre o arredondamento */
+}
 
 .st-b7 {
     background-color: #d4e6ff;
