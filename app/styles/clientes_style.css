@@ -35,7 +35,7 @@ h4 a::before {
     content: none !important;
 }
 
-.st-emotion-cache-1lsfsc6, .st-emotion-cache-1lsfsc6:focus { /*lista label*/
+.st-emotion-cache-1lsfsc6{ /*lista label*/
     position: relative;
     display: flex;
     width: 100%;
@@ -67,11 +67,12 @@ h4 a::before {
     cursor: pointer;
     list-style-type: none;
     background-color: rgb(32, 70, 146);
+    color: #fff;
     border-radius: 0.5rem 0.5rem 0px 0px;
     transition: border-radius 200ms cubic-bezier(0.23, 1, 0.32, 1), background-color 150ms;
 }
 
-div[data-testid="stExpander"] { /*alterar aqui*/
+.st-emotion-cache-pxambx { /*alterar aqui*/
     background: rgb(50, 110, 230) !important;
 }
 
