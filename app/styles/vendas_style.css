@@ -117,10 +117,14 @@ h4 a::before {
     background-color: #aac2e4 !important;
 }
 
-div[data-baseweb="select"] div[value] {
+div[data-baseweb="select"] div[value] { /*ajuste no margin top do selectbox*/
     line-height: normal !important;
     display: flex !important;
     align-items: center !important;
+}
+
+.st-emotion-cache-1py5frv input { /**/
+    background-color: #aac2e4 !important;
 }
 
 .st-key-botao_cadastro_venda button {
