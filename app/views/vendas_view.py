@@ -55,7 +55,6 @@ def excluir_venda(venda_id):
     cursor.execute("DELETE FROM vendas WHERE id = %s", (venda_id,))
     conn.commit()
     conn.close()
-    st.warning("Venda deletada com sucesso!")
     st.rerun()
 
 def mostrar_vendas_view():
@@ -210,12 +209,12 @@ def mostrar_vendas_view():
                     )
                     deletar_submit = st.form_submit_button("Confirmar Exclusão")
                     if deletar_submit:
+                        if confirmar_delete == "Sim":
+                            excluir_venda(venda['id'])
+                        elif confirmar_delete == "Não":
+                            st.rerun()
+                        else:
+                            st.warning("Selecione uma opção antes de confirmar")
                         del st.session_state[f"mostrar_delete_venda_{venda['id']}"]
-                    if confirmar_delete == "Sim":
-                        excluir_venda(venda['id'])
-                    elif confirmar_delete == "Não":
-                        st.rerun()
-                    else:
-                        st.warning("Selecione uma opção antes de confirmar")
-
+                        
             st.markdown('</div>', unsafe_allow_html=True)
