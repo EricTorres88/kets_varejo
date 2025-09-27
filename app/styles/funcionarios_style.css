@@ -367,13 +367,22 @@ div[data-baseweb="select"]:focus-within {
     background-color: #d4e6ff !important;
 }
 
-.st-emotion-cache-589yx1 {
+.st-emotion-cache-589yx1 { /*mudar aqui*/
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     padding: 0px 1rem;
     font-weight: 400;
     background-color: #d4e6ff !important;
+}
+
+.st-emotion-cache-589yx1:hover { /*mudar aqui*/
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 1rem;
+    font-weight: 400;
+    background-color: #718cb1 !important;
 }
 
 .st-dz {
