@@ -362,6 +362,11 @@ div[data-baseweb="select"]:focus-within {
     box-shadow: 0 0 5px #1a73e8 !important;
 }
 
+.st-d0 {
+    transition-property: border, box-shadow, background-color;
+    background-color: #d4e6ff !important;
+}
+
 .st-dz {
     transition-property: border, box-shadow, background-color;
 }
