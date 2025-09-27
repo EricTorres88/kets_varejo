@@ -209,7 +209,6 @@ div[data-testid="stExpander"] {
 .st-ba {
     height: 2.5rem;
     background-color: #d4e6ff !important;
-    border: inherit !important;
     color: #000 !important;
 }
 
