@@ -197,10 +197,6 @@ div[data-testid="stExpander"] {
     background-color: #92bef7;
 }
 
-.st-cy {
-    border: none;
-    transition-property: border, box-shadow, background-color;
-}
 
 .st-b7 {
     background-color: #d4e6ff;
