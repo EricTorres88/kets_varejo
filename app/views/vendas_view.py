@@ -212,9 +212,9 @@ def mostrar_vendas_view():
                         if confirmar_delete == "Sim":
                             excluir_venda(venda['id'])
                         elif confirmar_delete == "Não":
+                            del st.session_state[f"mostrar_delete_venda_{venda['id']}"]
                             st.rerun()
                         else:
                             st.warning("Selecione uma opção antes de confirmar")
-                        del st.session_state[f"mostrar_delete_venda_{venda['id']}"]
                         
             st.markdown('</div>', unsafe_allow_html=True)
