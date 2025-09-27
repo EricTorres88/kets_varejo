@@ -346,7 +346,7 @@ div[class*="st-key-deletar_func_"] button[data-testid="stBaseButton-secondary"] 
 }
 
 div[data-baseweb="select"] {
-    background-color: #d4e6ff;  /* fundo da caixa */
+    background-color: #d4e6ff !important;  /* fundo da caixa */
     border: 1px solid #d1e2fd !important;
     border-radius: 6px;         /* cantos arredondados */
     padding: 0px;           /* espaço interno */
@@ -358,8 +358,8 @@ div[data-baseweb="select"] {
 
 /* Efeito de foco ao abrir */
 div[data-baseweb="select"]:focus-within {
-    border-color: #0056b3;
-    box-shadow: 0 0 5px #1a73e8;
+    border-color: #0056b3 !important;
+    box-shadow: 0 0 5px #1a73e8 !important;
 }
 
 .st-dz {
