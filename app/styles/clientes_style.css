@@ -309,6 +309,8 @@ p.cliente-nome i{
 
 /* Aplica a todos os botões Alterar com a key que começa com 'editar_' MODELO PRA USAR*/
 div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"] {
+    display: inline-flex !important;
+    align-items: center !important;
     background-color: #e8ff65 !important;
     color: #020202 !important;
     font-weight: bold !important;
@@ -316,7 +318,10 @@ div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"] {
     padding: 8px 16px !important;
     border: none !important;
     cursor: pointer !important;
+    line-height: 1 !important;
     transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    font-size: 14px !important;           /* ajuste à sua preferência */
+    padding: 8px 12px !important;         /* pode ajustar tamanho do botão */
 }
 
 div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"]:hover {
@@ -325,14 +330,20 @@ div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"]:hover 
 }
 
 div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     background-color: #ff3636 !important;
     color: #020202 !important;
     font-weight: bold !important;
     border-radius: 8px !important;
-    padding: 8px 16px !important;
     border: none !important;
     cursor: pointer !important;
+    vertical-align: middle !important;
+    line-height: 1 !important;
     transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    font-size: 14px !important;
+    padding: 8px 12px !important;
 }
 
 div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"]:hover {
