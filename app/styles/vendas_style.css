@@ -186,12 +186,9 @@ div[data-testid="stExpander"] {
 }
 
 .st-du {
-    background-color: #a7c9f5;
+    background-color: transparent !important;
 }
 
-.st-du:hover {
-    background-color: #92bef7;
-}
 
 /* Borda arredondada do selectbox */
 div[data-baseweb="select"] {
