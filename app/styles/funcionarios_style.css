@@ -362,8 +362,17 @@ div[data-baseweb="select"]:focus-within {
     box-shadow: 0 0 5px #1a73e8 !important;
 }
 
-.st-d0 {
-    transition-property: border, box-shadow, background-color;
+.st-d0 { /*MUDAR AQUI PARA SELECTBOX*/
+    border: none !important;
+    background-color: #d4e6ff !important;
+}
+
+.st-emotion-cache-589yx1 {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 1rem;
+    font-weight: 400;
     background-color: #d4e6ff !important;
 }
 
