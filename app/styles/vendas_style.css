@@ -230,15 +230,6 @@ div[data-testid="stExpander"] {
     border-top: 1px solid rgba(49, 51, 63, 0.2);
 }
 
-.st-emotion-cache-1bcyifm {
-    border: none !important;
-    border-radius: 0.5rem;
-    padding: 5 !important;
-    width: 100% !important;
-    height: 100% !important;
-    overflow: visible;
-    background-color: #a7c9f5 !important;
-}
 
 .st-emotion-cache-wfksaw {
     display: flex;
@@ -328,15 +319,6 @@ button[data-testid="stBaseButton-secondaryFormSubmit"] {
 button[data-testid="stBaseButton-secondaryFormSubmit"]:hover {
     background-color: #1557b0 !important;
 }
-
-.st-emotion-cache-1bcyifm {
-    border: none;
-    padding: calc(-1px + 1rem);
-    width: 80%;
-    height: 100%;
-    overflow: visible;
-}
-
 
 .vendas-card {
     width: 80%;
@@ -443,16 +425,6 @@ div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"]:hover
     overflow: visible;
 }
 
-.st-emotion-cache-1bcyifm {
-    border: none;
-    border-radius: 0.5rem;
-    padding: calc(-1px + 1rem);
-    width: 80%;
-    height: 100%;
-    overflow: visible;
-    background-color: #afcefa;
-    border: 1px solid #d3d3d3;
-}
 
 .st-fk {
     color: rgb(255, 255, 255);
