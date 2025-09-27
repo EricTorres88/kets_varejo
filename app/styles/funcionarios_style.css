@@ -414,9 +414,8 @@ div[data-baseweb="select"]:focus-within {
 }
 
 .st-cf {
-    transition-property: border, box-shadow, background-color;
-    background-color: #d4e6ff;
-    border: none;
+    background-color: #d4e6ff !important;
+    border: none !important;
 }
 
 .st-emotion-cache-1permvm {
