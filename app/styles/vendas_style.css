@@ -99,10 +99,6 @@ h4 a::before {
     margin-bottom: 2px !important;
 }
 
-.st-d0 { /*MUDAR AQUI PARA SELECTBOX*/
-    border: none !important;
-    background-color: #d4e6ff !important;
-}
 
 .st-emotion-cache-589yx1 { /*mudar aqui*/
     display: flex;
