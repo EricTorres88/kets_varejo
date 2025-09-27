@@ -203,6 +203,16 @@ div[data-baseweb="select"] {
     overflow: hidden; /* evita que o conteúdo quebre o arredondamento */
 }
 
+div[data-baseweb="popover"] li[role="option"]:hover {
+    background-color: #a7c9f5 !important; /* cor de fundo ao passar o mouse */
+    cursor: pointer;
+}
+
+/* Deixa a opção selecionada com cor fixa (opcional) */
+div[data-baseweb="popover"] li[role="option"][aria-selected="true"] {
+    background-color: #d9eaff !important; /* cor diferente para a opção ativa */
+}
+
 .st-emotion-cache-589yx1 { /*mudar aqui*/
     display: flex;
     -webkit-box-align: center;
