@@ -52,6 +52,7 @@ def atualizar_status_venda(venda_id, nova_situacao):
 def excluir_venda(venda_id):
     conn = conectar()
     cursor = conn.cursor()
+    cursor.execute("DELETE FROM fiado WHERE venda_id = %s", (venda_id,))
     cursor.execute("DELETE FROM vendas WHERE id = %s", (venda_id,))
     conn.commit()
     conn.close()
