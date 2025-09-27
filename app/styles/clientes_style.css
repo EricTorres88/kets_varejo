@@ -81,10 +81,14 @@ h4 a::before {
     border: none;
     border-radius: 0.5rem;
     padding: calc(-1px + 1rem);
-    width: 80%;
+    width: 80% !important;
     height: 100%;
     overflow: visible;
     background-color: #a7c9f5 !important;
+}
+
+.st-emotion-cache-3qzj0x p { /*alterar 3*/
+    font-weight: bold !important;
 }
 
 div.st-key-botao_cadastro button[data-testid="stBaseButton-secondary"] {
