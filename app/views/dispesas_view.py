@@ -1,3 +1,4 @@
+import mysql.connector
 from mysql.connector import Error
 import streamlit as st
 from database.connection import conectar

@@ -1,3 +1,5 @@
+import mysql.connector
+from mysql.connector import Error
 import streamlit as st
 from pathlib import Path
 from app.auth import verificar_login  # sua função de verificação atual

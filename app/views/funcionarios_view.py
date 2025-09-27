@@ -1,7 +1,8 @@
+import mysql.connector
 from mysql.connector import Error
 import streamlit as st
-from pathlib import Path
 from database.connection import conectar
+from pathlib import Path
 
 def editar_funcionario(usuario_id, novo_nome, novo_cargo_id, novo_telefone):
     conn = conectar()

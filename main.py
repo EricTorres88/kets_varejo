@@ -1,3 +1,6 @@
+import mysql.connector
+from mysql.connector import Error
+from database.connection import conectar
 import streamlit as st
 from app.views.login_view import mostrar_login
 from app.views.clientes_view import mostrar_clientes_view

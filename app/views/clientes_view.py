@@ -1,7 +1,8 @@
+import mysql.connector
 from mysql.connector import Error
-from pathlib import Path
 import streamlit as st
 from database.connection import conectar
+from pathlib import Path
 
 # Função para cadastrar um cliente
 def cadastrar_cliente(nome, endereco, telefone):

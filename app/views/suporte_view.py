@@ -1,4 +1,7 @@
+import mysql.connector
+from mysql.connector import Error
 import streamlit as st
+from database.connection import conectar
 from pathlib import Path
 
 def suporte_view():
