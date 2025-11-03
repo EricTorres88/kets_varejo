@@ -66,21 +66,25 @@ def mostrar_login():
             submit = st.form_submit_button("Entrar")
 
         if submit:
-            usuario = verificar_login(email, senha)
-            if usuario:
-                # Pega o cargo do funcionário
-                cargo = get_cargo_usuario(usuario["cargo_id"])
-
-                # Salva usuário logado e cargo na sessão
-                st.session_state["logado"] = True
-                st.session_state["usuario"] = {
-                    "id": usuario["id"],
-                    "nome": usuario["nome"],
-                    "email": usuario["email"],
-                    "loja": usuario["loja"],
-                    "cargo_id": usuario["cargo_id"],  # cargo do funcionário logado
-                    "cargo": cargo
-                }
-                st.rerun()
+            # Verifica se os campos estão preenchidos
+            if not email or not senha:
+                st.error("Por favor, preencha todos os campos antes de entrar.")
             else:
-                st.error("Email ou senha incorretos")
+                usuario = verificar_login(email, senha)
+                if usuario == "erro_banco":
+                    st.error("Email ou senha incorretos.")
+                elif usuario:
+                    cargo = get_cargo_usuario(usuario["cargo_id"])
+                    # Salva usuário logado e cargo na sessão
+                    st.session_state["logado"] = True
+                    st.session_state["usuario"] = {
+                        "id": usuario["id"],
+                        "nome": usuario["nome"],
+                        "email": usuario["email"],
+                        "loja": usuario["loja"],
+                        "cargo_id": usuario["cargo_id"],
+                        "cargo": cargo
+                    }
+                    st.rerun()
+                else:
+                    st.error("Email ou senha incorretos.")     

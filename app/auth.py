@@ -22,10 +22,10 @@ def verificar_login(email, senha):
                 'cargo_id': resultado[5],
                 'telefone': resultado[6]
             }
-            if bcrypt.checkpw(senha.encode(), usuario['senha_hash'].encode()):
+            if senha and bcrypt.checkpw(senha.encode(), usuario['senha_hash'].encode()):
                 return usuario
         return None
-    except Error as e:
-        print(f"Erro de conexão com o banco de dados: {e}")
-        return None
+    except Exception as e:
+        print(f"⚠️ Erro ao verificar login: {e}")
+        return "erro_banco"
 
