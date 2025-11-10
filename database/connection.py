@@ -12,7 +12,9 @@ def conectar():
             user=os.getenv("DB_USER"),
             password=os.getenv("DB_PASSWORD"),
             database=os.getenv("DB_NAME"),
-            port=int(os.getenv("DB_PORT"))
+            port=int(os.getenv("DB_PORT")),
+            ssl_ca="ca.pem", #mudou aqui
+            ssl_disabled=False
         )
         if conexao.is_connected():
             print("Conexão bem-sucedida!")
@@ -20,3 +22,6 @@ def conectar():
     except Error as e:
         print(f"Erro ao conectar ao banco de dados: {e}")
         return None
+
+if __name__ == "__main__":
+    conectar()
