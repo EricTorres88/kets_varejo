@@ -45,8 +45,8 @@ else:
         st.session_state["menu_selecionado"] = "Produtos"
     if st.sidebar.button("Vendas"):
         st.session_state["menu_selecionado"] = "Vendas"
-    if st.sidebar.button("Fiado"):
-        st.session_state["menu_selecionado"] = "Fiado"
+    if st.sidebar.button("Parcelas"):
+        st.session_state["menu_selecionado"] = "Parcelas"
     if st.sidebar.button("Despesas"):
         st.session_state["menu_selecionado"] = "Despesas"
     if st.sidebar.button("Suporte"):
@@ -77,7 +77,7 @@ else:
         mostrar_produtos_view()
     elif menu == "Vendas":
         mostrar_vendas_view()
-    elif menu == "Fiado":
+    elif menu == "Parcelas":
         mostrar_parcela_view()
     elif menu == "Despesas":
         mostrar_despesas_view()

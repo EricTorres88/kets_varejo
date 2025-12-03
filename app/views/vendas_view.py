@@ -179,7 +179,7 @@ def mostrar_vendas_view():
             col_alterar, _, col_deletar, _ = st.columns([1, 0.1, 1, 8])
 
             with col_alterar:
-                if st.button("✏️ Alterar Status", key=f"alt_status_{venda['id']}"):
+                if st.button("✏️ Alterar Situação", key=f"alt_status_{venda['id']}"):
                     st.session_state[f"mostrar_update_status_{venda['id']}"] = not st.session_state.get(f"mostrar_update_status_{venda['id']}", False)
                     st.session_state[f"mostrar_delete_venda_{venda['id']}"] = False
 

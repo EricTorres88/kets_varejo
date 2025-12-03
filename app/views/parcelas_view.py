@@ -94,11 +94,11 @@ def mostrar_parcela_view():
             #botões streamlit
             col_alterar, _, col_deletar, _ = st.columns([1, 0.1, 1, 8])
             with col_alterar:
-                if st.button("✏️ Atualizar Parcelas", key=f"update_parcela_{registro['fiado_id']}"):
+                if st.button("💲 Pagar Parcela", key=f"update_parcela_{registro['fiado_id']}"):
                     st.session_state[f"atualizar_parcela_{registro['fiado_id']}"] = not st.session_state.get(f"atualizar_parcela_{registro['fiado_id']}")
                     st.session_state[f"confirmar_delete_{registro['fiado_id']}"] = False
             with col_deletar:
-                if st.button("🗑️ Excluir Histórico", key=f"delete_parcela_{registro['fiado_id']}"):
+                if st.button("🗑️ Excluir Parcela", key=f"delete_parcela_{registro['fiado_id']}"):
                     st.session_state[f"confirmar_delete_{registro['fiado_id']}"] = not st.session_state.get(f"confirmar_delete_{registro['fiado_id']}")
                     st.session_state[f"atualizar_parcela_{registro['fiado_id']}"] = False
 

@@ -309,6 +309,8 @@ p.cliente-nome i{
 
 /* Aplica a todos os botões Alterar com a key que começa com 'editar_' MODELO PRA USAR*/
 div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"] {
+    width: 120% !important;
+    white-space: nowrap !important;
     display: inline-flex !important;
     align-items: center !important;
     background-color: #e8ff65 !important;
@@ -330,6 +332,8 @@ div[class*="st-key-editar_"] button[data-testid="stBaseButton-secondary"]:hover 
 }
 
 div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"] {
+    width: 120% !important;
+    white-space: nowrap !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -344,6 +348,7 @@ div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"] {
     transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
     font-size: 14px !important;
     padding: 8px 12px !important;
+    margin-left: 25px;
 }
 
 div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"]:hover {

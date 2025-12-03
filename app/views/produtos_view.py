@@ -109,7 +109,7 @@ def mostrar_produtos_view():
             # Botões do Streamlit
             col_alterar, _, col_deletar, _ = st.columns([1, 0.1, 1, 8])
             with col_alterar:
-                if st.button("✏️ Alterar", key=f"editar_btn_{produto['id']}"):
+                if st.button("✏️ Alterar Dados", key=f"editar_btn_{produto['id']}"):
                     st.session_state[f"mostrar_edicao_{produto['id']}"] = not st.session_state.get(f"mostrar_edicao_{produto['id']}", False)
                     st.session_state[f"mostrar_delete_{produto['id']}"] = False
             with col_deletar:

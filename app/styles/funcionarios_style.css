@@ -157,6 +157,8 @@ p.func-nome i {
 
 /* Botões Alterar */
 div[class*="st-key-editar_func_"] button[data-testid="stBaseButton-secondary"] {
+    width: 120% !important;
+    white-space: nowrap !important;
     display: inline-flex !important;
     align-items: center !important;
     background-color: #e8ff65 !important;
@@ -178,6 +180,8 @@ div[class*="st-key-editar_func_"] button[data-testid="stBaseButton-secondary"]:h
 
 /* Botões Deletar */
 div[class*="st-key-deletar_func_"] button[data-testid="stBaseButton-secondary"] {
+    width: 120% !important;
+    white-space: nowrap !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;

@@ -135,7 +135,7 @@ def mostrar_despesas_view():
             col_alterar, _, col_deletar, _ = st.columns([1, 0.1, 1, 8])
 
             with col_alterar:
-                if st.button("✏️ Alterar Status", key=f"alt_status_{desp['id']}"):
+                if st.button("💲 Alterar Pagamento", key=f"alt_status_{desp['id']}"):
                     st.session_state[f"mostrar_update_status_{desp['id']}"] = not st.session_state.get(f"mostrar_update_status_{desp['id']}", False)
                     st.session_state[f"mostrar_delete_despesa_{desp['id']}"] = False
 

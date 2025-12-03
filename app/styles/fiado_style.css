@@ -138,7 +138,8 @@ p.parcela-nome i{
 }
 
 div[class*="st-key-update_"] button[data-testid="stBaseButton-secondary"] {
-    width: 12rem;
+    width: 150% !important;
+    white-space: nowrap !important;
     background-color: #e8ff65 !important;
     color: #020202 !important;
     font-weight: bold !important;
@@ -155,7 +156,8 @@ div[class*="st-key-update_"] button[data-testid="stBaseButton-secondary"]:hover 
 }
 
 div[class*="st-key-delete_"] button[data-testid="stBaseButton-secondary"] {
-    width: 10rem;
+    width: 150% !important;
+    white-space: nowrap !important;
     background-color: #ff3636 !important;
     color: #020202 !important;
     font-weight: bold !important;
@@ -164,7 +166,7 @@ div[class*="st-key-delete_"] button[data-testid="stBaseButton-secondary"] {
     border: none !important;
     cursor: pointer !important;
     transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 div[class*="st-key-delete_"] button[data-testid="stBaseButton-secondary"]:hover {

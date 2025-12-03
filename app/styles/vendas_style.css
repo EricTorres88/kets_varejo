@@ -383,7 +383,8 @@ p.produto-nome i{
 }
 
 div[class*="st-key-alt_"] button[data-testid="stBaseButton-secondary"] {
-    width: 10rem;
+    width: 160% !important;
+    white-space: nowrap !important;
     background-color: #e8ff65 !important;
     color: #020202 !important;
     font-weight: bold !important;
@@ -400,6 +401,8 @@ div[class*="st-key-alt_"] button[data-testid="stBaseButton-secondary"]:hover {
 }
 
 div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"] {
+    width: 100% !important;
+    white-space: nowrap !important;
     background-color: #ff3636 !important;
     color: #020202 !important;
     font-weight: bold !important;
@@ -408,7 +411,7 @@ div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"] {
     border: none !important;
     cursor: pointer !important;
     transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 div[class*="st-key-deletar_"] button[data-testid="stBaseButton-secondary"]:hover {
